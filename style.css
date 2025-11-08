@@ -1,0 +1,121 @@
+* {
+  /*outline: 1px solid red;*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(124deg, #980c3b, #95159c, #bd2f10);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 10s ease infinite;
+  -z-animation: rainbow 10s ease infinite;
+  -o-animation: rainbow 10s ease infinite;
+  animation: rainbow 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+  /*background-color: rgb(42, 90, 248);
+      }*/
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(39, 40, 52);
+  color: white;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  height: 50px;
+  font-size: 40px;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  text-align: center;
+}
+
+td {
+  border-radius: 20px;
+  background-color: rgba(59, 59, 65, 0.848);
+  padding: 5px 40px;
+  font-size: 50px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+td:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.ope {
+  background-color: rgba(78, 78, 87, 0.848);
+  color: rgb(255, 0, 115);
+}
+
+.submit {
+  background-color: rgb(255, 0, 115);
+  color: white;
+}
