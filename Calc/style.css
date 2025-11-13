@@ -94,6 +94,7 @@ table {
   border-collapse: separate;
   border-spacing: 10px;
   text-align: center;
+  border: 2px solide white
 }
 
 td {
